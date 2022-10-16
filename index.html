@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+	<!-- meta charec set -->
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine or request Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!-- Page Title -->
+	<title>Sage Knot</title>
+	<!-- Meta Description -->
+	<meta name="description" content="Novian Hub MAC">
+	<meta name="keywords"
+		content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+	<meta name="author" content="Toney Abraham">
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="shortcut icon" href="img/logo.png"> -->
+
+	<!-- Google Font -->
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- CSS
+		================================================== -->
+	<!-- Fontawesome Icon font -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Twitter Bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- jquery.fancybox  -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<!-- animate -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- media-queries -->
+	<link rel="stylesheet" href="css/media-queries.css">
+
+	<!-- Modernizer Script for old Browsers -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<style>
+		.m1 {
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			height: 300px;
+		}
+
+		/* Then style the iframe to fit in the container div with full height and width */
+		.map {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+
+</head>
+
+<body id="body">
+
+	<!-- preloader -->
+	<div id="preloader">
+		<img src="img/preloader.gif" alt="Preloader">
+	</div>
+	<!-- end preloader -->
+
+	<!-- 
+        Fixed Navigation
+        ==================================== -->
+	<header id="navigation" class="navbar-fixed-top navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- responsive nav button -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<i class="fa fa-bars fa-2x"></i>
+				</button>
+				<!-- /responsive nav button -->
+
+				<!-- logo -->
+				<!-- <a class="navbar-brand" href="#body">
+					<h1 id="logo">
+						<img src="img/logo.png" alt="Brandi">
+					</h1>
+				</a> -->
+				<!-- /logo -->
+			</div>
+
+			<!-- main nav -->
+			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+				<ul id="nav" class="nav navbar-nav">
+					<li class="current"><a href="#body">Home</a></li>
+					<!-- <li><a href="#features">Features</a></li> -->
+					<!-- <li><a href="#works">Work</a></li> -->
+					<li><a href="#team">Team</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<!-- /main nav -->
+
+		</div>
+	</header>
+	<!--
+        End Fixed Navigation
+        ==================================== -->
+
+
+
+	<!--
+        Home Slider
+        ==================================== -->
+
+	<section id="slider">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+			<!-- Indicators bullet -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			</ol>
+			<!-- End Indicators bullet -->
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+
+				<!-- single slide -->
+				<div class="item active" style="background-image: url(img/banner33.png);">
+					<div class="carousel-caption">
+						<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">
+							Sage<span> Knot</span>!</h2>
+						<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">Deep
+								thinker's Unity</span></h3>
+						<p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals
+						</p>
+
+						<ul class="social-links text-center">
+							<li><a href="https://instagram.com/sage.knot?igshid=YmMyMTA2M2Y="><i
+										class="fa fa-instagram fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
+							<!--	<li><a href=""><i class="fa fa-google-maps fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>  -->
+						</ul>
+					</div>
+				</div>
+				<!-- end single slide -->
+
+				<!-- single slide -->
+				<div class="item" style="background-image: url(img/banner33.png);">
+					<div class="carousel-caption">
+						<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">
+							Software<span> Devolopers</span>!</h2>
+						<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color"></span></h3>
+						<p data-wow-duration="500ms" class="wow slideInRight animated">Join With Us</p>
+
+
+						<ul class="social-links text-center">
+							<li><a href="https://www.instagram.com/novian_hub/?hl=en"><i
+										class="fa fa-instagram fa-lg"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/novian-hub-254533221"><i
+										class="fa fa-linkedin fa-lg"></i></a></li>
+							<!--	<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li> -->
+						</ul>
+					</div>
+				</div>
+				<!-- end single slide -->
+
+			</div>
+			<!-- End Wrapper for slides -->
+
+		</div>
+	</section>
+
+	<!--
+        End Home SliderEnd
+        ==================================== -->
+
+	<!--
+        Features
+        ==================================== -->
+
+
+	<!--
+        End Features
+        ==================================== -->
+
+
+	<!--
+        Our Works
+        ==================================== -->
+
+
+
+
+	<!--
+        End Our Works
+        ==================================== -->
+
+	<!--
+        Meet Our Team
+        ==================================== -->
+
+	<section id="team" class="team">
+		<div class="container">
+			<div class="row">
+
+				<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+					<h2>Meet Our Team</h2>
+					<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+				</div>
+
+				<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+					<p></p>
+				</div>
+
+				<!-- single member -->
+				<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+					data-wow-duration="500ms">
+					<div class="member-thumb">
+						<img src="img/team/sarang.png" alt="Team Member" class="img-responsive">
+						<figcaption class="overlay">
+							<h5>SARANG P ACHARI </h5>
+							<p>BCA</p>
+							<ul class="social-links text-center">
+								<li><a href="https://instagram.com/saranqhh?igshid=YmMyMTA2M2Y="><i
+											class="fa fa-instagram fa-lg"></i></a></li>
+
+								<li><a href="https://www.linkedin.com/in/sarang-p-achari-758445226"><i
+											class="fa fa-linkedin fa-lg"></i></a></li>
+							</ul>
+						</figcaption>
+					</div>
+					<h4>SARANG P ACHARI</h4>
+					<span>Head</span>
+				</figure>
+				<!-- end single member -->
+
+				<!-- single member -->
+				<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+					data-wow-duration="500ms" data-wow-delay="300ms">
+					<div class="member-thumb">
+						<img src="img/team/rijo.png" alt="Team Member" class="img-responsive">
+						<figcaption class="overlay">
+							<h5>RIJO MON ROY </h5>
+							<p>BCA</p>
+							<ul class="social-links text-center">
+								<li><a href="https://instagram.com/rijoroy__?igshid=YmMyMTA2M2Y="><i
+											class="fa fa-instagram fa-lg"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/rijomon-roy-3786b8249"><i
+											class="fa fa-linkedin fa-lg"></i></a></li>
+							</ul>
+						</figcaption>
+					</div>
+					<h4>RIJO MON ROY </h4>
+					<span>Team lead</span>
+				</figure>
+				<!-- end single member -->
+
+				<!-- single member -->
+				<!-- <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="member-thumb">
+							<img src="img/team/jeny.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5>Jeny Rose Job</h5>
+								<p>Msc Electronics</p>
+								<ul class="social-links text-center">
+									<li><a href="https://www.instagram.com/rubysunn_24/"><i class="fa fa-instagram fa-lg"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/jeny-rose-54509120b"><i class="fa fa-linkedin fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Jeny Rose Job</h4>
+						<span>Student Coordinator</span>
+					</figure> -->
+				<!-- end single member -->
+
+
+				<!-- single member -->
+				<!-- <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="member-thumb">
+							<img src="img/team/alina.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5>Alina Alia John</h5>
+								<p>Msc Electronics</p>
+								<ul class="social-links text-center">
+									<li><a href="https://www.instagram.com/alinaelia_29/?hl=en"><i class="fa fa-instagram fa-lg"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/alina-elia-john-2a095a1b7"><i class="fa fa-linkedin fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Alina Alia John</h4>
+						<span>Media Head</span>
+					</figure> -->
+				<!-- end single member -->
+
+				<!-- single member -->
+				<!-- <figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="member-thumb">
+							<img src="img/team/toney.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5>Toney Abraham</h5>
+								<p>Msc Electronics</p>
+								<ul class="social-links text-center">
+									<li><a href="https://www.instagram.com/clutch__kid__/?hl=en"><i class="fa fa-instagram fa-lg"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/toney-abraham-8b0470190/"><i class="fa fa-linkedin fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Toney Abraham</h4>
+						<span>Technical Head</span>
+					</figure> -->
+				<!-- end single member -->
+
+			</div>
+		</div>
+	</section>
+
+	<!--
+        End Meet Our Team
+        ==================================== -->
+
+	<!--
+        Some fun facts
+        ==================================== -->
+
+	<section id="facts" class="facts">
+		<div class="parallax-overlay">
+			<div class="container">
+				<div class="row number-counters">
+
+					<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+						<h2>Some Fun Facts</h2>
+						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+					</div>
+
+					<!-- first count item -->
+					<a href="team/team.html">
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+							data-wow-duration="500ms" data-wow-delay="300ms">
+							<div class="counters-item">
+								<i class="fa fa-users fa-3x"></i>
+								<strong data-to="15">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Members</p>
+							</div>
+						</div>
+					</a>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
+						data-wow-delay="600ms">
+						<div class="counters-item">
+							<i class="fa fa-rocket fa-3x"></i>
+							<strong data-to="3">0</strong>
+							<!-- Set Your Number here. i,e. data-to="56" -->
+							<p> Completed Projects</p>
+						</div>
+					</div>
+					<!-- end first count item -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--
+        End Some fun facts
+        ==================================== -->
+
+
+	<!--
+        Contact Us
+        ==================================== -->
+	<section id="contact" class="contact">
+		<div class="container">
+			<div class="row mb50">
+
+				<!-- <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+					<h2>Let’s Discuss</h2>
+					<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
+				</div> -->
+
+				<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
+					<p>Join to our team<br>learn to code</p>
+				</div>
+
+
+				<!-- contact address -->
+				<!-- <div class="container text-center" data-wow-duration="500ms">
+					<div class="contact-address">
+						<h3>Mar Augusthinose College,Ramapuram </h3>
+						<p>Kottayam</p>
+						<p>Kerala, India</p>
+						<p>686576</p>
+					</div>
+				</div> -->
+
+				<!-- end contact address -->
+
+
+				<!-- footer social links -->
+				<div class="container text-center" data-wow-duration="500ms" data-wow-delay="600ms">
+					<ul class="footer-social">
+						<li><a href="https://instagram.com/sage.knot?igshid=YmMyMTA2M2Y="><i
+									class="fa fa-instagram fa-3x"></i></a></li>
+						<!-- <li><a href=""><i
+									class="fa fa-linkedin fa-3x"></i></a></li> -->
+						<li><a href="mailto:sageknotdevelopers@gmail.com"><i
+									class="fa fa-envelope-square fa-3x"></i></a></li>
+					</ul>
+				</div>
+				<!-- end footer social links -->
+
+			</div>
+		</div>
+
+		<!-- Google map -->
+		<!-- <div class="m1">
+			<iframe class="map"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.604840479686!2d76.66179041479255!3d9.79946389298884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07cf17bf754fcf%3A0xe60d8ff98a7a2597!2sNovian%20Hub!5e0!3m2!1sen!2sin!4v1633975804489!5m2!1sen!2sin"
+				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div> -->
+	</section>
+
+	<!--
+        End Contact Us
+        ==================================== -->
+
+
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+					<div class="footer-single">
+						<img src="img/footer-logo.png" alt="">
+						<p></p>
+					</div>
+				</div> -->
+
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
+					data-wow-delay="600ms">
+					<div class="footer-single">
+						<h6>Explore</h6>
+						<ul>
+							<!--<li><a href="#">Inside Us</a></li>
+								<li><a href="#">Flickr</a></li>-->
+							<!-- <li><a
+									href="https://www.google.co.in/search?q=novian+hub&biw=1366&bih=663&ei=PcVqYfPbJ4bfrQGCtZmoAQ&ved=0ahUKEwiz7p-B987zAhWGbysKHYJaBhUQ4dUDCA4&uact=5&oq=novian+hub&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAELADEA06CQgAELADEA0QCkoECEEYAVDSGljSGmCwNmgBcAB4AIAB0AGIAZUDkgEFMC4xLjGYAQCgAQHIAQrAAQE&sclient=gws-wiz">Google</a>
+							</li> -->
+							<!--<li><a href="#">Forum</a></li>-->
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"
+					data-wow-delay="900ms">
+					<div class="footer-single">
+						<h6>Support</h6>
+						<ul>
+							<li><a href="sageknotdevelopers@gmail.com">Contact Us</a></li>
+							<!-- <li><a href="#">Market Blog</a></li>
+								<li><a href="#">Help Center</a></li>
+								<li><a href="#">Pressroom</a></li> -->
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copyright text-center">
+						Copyright © 2021 <a href="">Sage Knot</a>. All rights reserved. Designed & developed by <a
+							href="">Sage Knot</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
+	<!-- Essential jQuery Plugins
+		================================================== -->
+	<!-- Main jQuery -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- Single Page Nav -->
+	<script src="js/jquery.singlePageNav.min.js"></script>
+	<!-- Twitter Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- jquery.fancybox.pack -->
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<!-- jquery.mixitup.min -->
+	<script src="js/jquery.mixitup.min.js"></script>
+	<!-- jquery.parallax -->
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<!-- jquery.countTo -->
+	<script src="js/jquery-countTo.js"></script>
+	<!-- jquery.appear -->
+	<script src="js/jquery.appear.js"></script>
+	<!-- Contact form validation -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+	<!-- Google Map -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=&libraries=places"></script>
+	<!-- jquery easing -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- jquery easing -->
+	<script src="js/wow.min.js"></script>
+	<script>
+		var wow = new WOW({
+			boxClass: 'wow',      // animated element css class (default is wow)
+			animateClass: 'animated', // animation css class (default is animated)
+			offset: 120,          // distance to the element when triggering the animation (default is 0)
+			mobile: false,       // trigger animations on mobile devices (default is true)
+			live: true        // act on asynchronously loaded content (default is true)
+		}
+		);
+		wow.init();
+	</script>
+	<!-- Custom Functions -->
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
